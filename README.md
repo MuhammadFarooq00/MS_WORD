@@ -1,0 +1,1 @@
+I make an application that have a functionality like MS word you can write in it and customize it by use features that I have provided in this application. But I make its Interface different to the real MS word application. Its fully responsive on all devices.
