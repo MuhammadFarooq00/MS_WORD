@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 
 const page = () => {
   const [lismobile,setismobile] = useState(false);
-  const [wid,setwidth] = useState(window.innerWidth);
+  const [wid,setwidth] = useState(0);
   const handleResize = ()=>{
     setwidth(window.innerWidth)
   }

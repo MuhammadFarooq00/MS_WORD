@@ -8,8 +8,8 @@ const WriteableScreen = () => {
     y: 0,
   });
    const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: 0,
+    height: 0,
   });
   const [content, setContent] = useState("");
   const paragraphRef = useRef<HTMLParagraphElement>(null);
